@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asher's CSS</title>
+    <style>
+        
+    h1{
+        font-family: Arial;
+    }
+    .background{
+        background-color: gray !important; 
+
+    }
+    .beckground{
+        background-color: red;
+    }
+    </style>
 </head>
 <body>
-
-    <!-- Inline CSSL -->
     <h1>CSS Demonstration</h1>
     <main>
         <h1>Registration Form</h1>
         <form>
-            <div>
+            <div class="background beckground">
                 <label for="Email">Email Address:</label>
                 <input type="email" name="EmailField" id="Email" required>
             </div>
-            <div>
+            <div class="background beckground">
                 <label for="Password">Password:</label>
                 <input type="password" name="PasswordField" id="Password" required>
             </div>
